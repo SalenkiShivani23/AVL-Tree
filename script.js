@@ -290,5 +290,11 @@ function drawCircle(x, y, value) {
   svg.appendChild(text);
   svg.appendChild(bfText);
 }
+// Expose functions for HTML buttons
+window.insertValue = insertValue;
+window.deleteValue = deleteValue;
+window.searchValue = searchValue;
+window.clearTree = clearTree;
+
 
 
