@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -288,3 +290,4 @@ function drawCircle(x, y, value) {
   svg.appendChild(text);
   svg.appendChild(bfText);
 }
+
