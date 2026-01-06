@@ -291,3 +291,4 @@ function drawCircle(x, y, value) {
   svg.appendChild(bfText);
 }
 
+
